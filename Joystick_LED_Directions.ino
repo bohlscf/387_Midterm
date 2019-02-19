@@ -9,8 +9,6 @@ int pin6 = 6;     //INPUT: test movement upwards
 int pin5 = 5;     //INPUT: test movement downwards
 int pin4 = 4;     //INPUT: test movement to the left
 
-int i = 0;
-
 void setup() {
   // put your setup code here, to run once:
   pinMode(pin12, OUTPUT);
