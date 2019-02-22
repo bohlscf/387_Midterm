@@ -25,38 +25,30 @@ void setup() {
 void loop() {
   if(digitalRead(pin7)){      //show right
     digitalWrite(pin12, LOW);
-    //delay(100);
   }
   else{
     digitalWrite(pin12, HIGH);
-    //delay(100);
   }
 
   if(digitalRead(pin6)){      //show up
     digitalWrite(pin11, LOW);
-    //delay(100);
   }
   else{
     digitalWrite(pin11, HIGH);
-    //delay(100);
   }
 
   if(digitalRead(pin5)){      //show down
     digitalWrite(pin10, LOW);
-    //delay(100);
   }
   else{
     digitalWrite(pin10, HIGH);
-    //delay(100);
   }
 
   if(digitalRead(pin4)){      //show left
     digitalWrite(pin8, LOW);
-    //delay(100);
   }
   else{
     digitalWrite(pin8, HIGH);
-    //delay(100);
   }
   
 }
