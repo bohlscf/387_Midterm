@@ -1,3 +1,5 @@
+/* This code uses tilt switches to light up four different
+   LEDs depending on which way it is tilted    */
 
 int pin12 = 12;   //OUTPUT: show tilted to the right
 int pin11 = 11;   //OUTPUT: show tilted forward
