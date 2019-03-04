@@ -10,13 +10,11 @@ int pin4 = 4;     //INPUT: test tilted to the left
 
 int pin2 = 2;
 
-int all = 0;      //This serves as the memory for the device
 int wait = 0;
 int right = 0;
 int left = 0;
 int up = 0;
 int down = 0;
-int last = 0;
 void setup() {
   // put your setup code here, to run once:
   pinMode(pin12, OUTPUT);
@@ -69,19 +67,7 @@ void loop() {
     digitalWrite(pin8,HIGH);
     wait = 1;
     delay(400);
-  }  
- /* if(digitalRead(pin7) == LOW){
-    if(digitalRead(pin6) == LOW){
-      if(digitalRead(pin5) == LOW){
-        if(digitalRead(pin4) == LOW){         */
-        
-          
-        //  if(last == 4){left--;}
-          //else if(last == 5){down--;}
-          //else if(last == 6){up--;}
-          //else if(last == 7){right--;}
-          //last = 0;        
-      
+  }   
 
    if(digitalRead(pin2)){
     digitalWrite(pin12,HIGH);
