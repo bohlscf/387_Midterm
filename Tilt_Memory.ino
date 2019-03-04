@@ -1,3 +1,8 @@
+/* This program uses the previously created joystick to create a joystick
+   that remembers the amount of times each direction was tlited. Then, the
+   LEDs light up showing the amount of times tilted each way. This program
+   can be modified to fit other uses.
+*/
 int pin12 = 12;   //OUTPUT: show tilted to the right
 int pin11 = 11;   //OUTPUT: show tilted forward
 int pin10 = 10;   //OUTPUT: show tilted backwards
@@ -73,7 +78,8 @@ void loop() {
     delay(400);
   }   
 
-   //This enters the if statement when the button is pressed
+   //This enters the if statement when the button is pressed. This if statement 
+   //could be modified to create different actions that are more useful to our projects
    if(digitalRead(pin2)){
     //All the LEDs light up for half a second
     digitalWrite(pin12,HIGH);
