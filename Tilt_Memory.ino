@@ -8,13 +8,13 @@ int pin6 = 6;     //INPUT: test tilted forward
 int pin5 = 5;     //INPUT: test tilted backwards
 int pin4 = 4;     //INPUT: test tilted to the left
 
-int pin2 = 2;
+int pin2 = 2;     //INPUT: button to start runback
 
-int wait = 0;
-int right = 0;
-int left = 0;
-int up = 0;
-int down = 0;
+int wait = 0;     //Keeps track of whether a direction has been tilted
+int right = 0;    //Counts the number of times tilted right
+int left = 0;     //Counts the number of times tilted left
+int up = 0;       //Counts the number of times tilted up
+int down = 0;     //Counts the number of times tilted down
 void setup() {
   // put your setup code here, to run once:
   pinMode(pin12, OUTPUT);
